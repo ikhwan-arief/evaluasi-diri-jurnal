@@ -764,6 +764,21 @@
       font-weight: 760;
     }
 
+    .site-footer {
+      width: min(1480px, 100%);
+      margin: 0 auto;
+      padding: 0 clamp(18px, 4vw, 56px) 44px;
+    }
+
+    .site-footer p {
+      margin: 0;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
     .print-only {
       display: none;
     }
@@ -1016,6 +1031,10 @@
       </div>
     </form>
   </main>
+
+  <footer class="site-footer">
+    <p>Alat bantu ini dibuat oleh Ikhwan Arief (ikhwan[at]unand.ac.id) untuk pengelola jurnal yang mempersiapkan roadmap menuju jurnal internasional bereputasi. Hak cipta pada Ikhwan Arief. Lisensi pemakaian alat bantu ini adalah CC BY-NC (Attribution-NonCommercial 4.0 International).</p>
+  </footer>
 
   <script>
     const scaleShort = ["Belum", "Informal", "Sebagian", "Konsisten", "Terukur"];
